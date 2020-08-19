@@ -9,10 +9,11 @@ import QS from 'qs'
 import ElementUI from 'element-ui'
 import './assets/css/font-awesome.css'
 import './assets/css/style.css'
-import Axios from 'axios'
+import axios from 'axios'
 import VueAxios from 'vue-axios'
+Vue.prototype.$axios = axios
 Vue.prototype.$qs = QS
-Vue.use(VueAxios, Axios)
+Vue.use(VueAxios, axios)
 Vue.use(ElementUI)
 Vue.config.productionTip = false
 
