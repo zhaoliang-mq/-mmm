@@ -5,6 +5,7 @@ import Login from '@/pages/Login'
 import register from '@/pages/register'
 import ShowView from '@/components/greenroom/showView'
 import Gift from '@/components/greenroom/gift'
+import Live from '@/components/live'
 Vue.use(Router)
 
 export default new Router({
@@ -18,6 +19,11 @@ export default new Router({
       path: '/Login',
       name: 'Login',
       component: Login
+    },
+    {
+      path: '/live',
+      name: 'live',
+      component: Live
     },
     {
       path: '/register',

@@ -76,7 +76,7 @@
             <div class="duya-header-right" id="J_duyaHeaderRight" style="float:right">
               <div class="duya-header-control clearfix">
                 <div class="hy-nav-right hy-nav-kaibo" style="float:left">
-                  <a class="hy-nav-title clickstat" href="https://hd.huya.com/pc/2019zhubo/pages/index.html"
+                  <a class="hy-nav-title clickstat" href="http://localhost:8080/#/live"
                      eid="click/navi/kaibo" eid_desc="点击/导航/开播" target="_blank">
                     <i class="hy-nav-icon hy-nav-video-icon"></i>
                     <span class="title">开播</span>
@@ -124,7 +124,7 @@
                   </div>
                 </div>
                 <div class="hy-nav-right un-login" style="float:left">
-                  <a class="hy-nav-title J_hdLg" href="http://localhost:8081/#/Login">
+                  <a class="hy-nav-title J_hdLg" href="http://localhost:8080/#/Login">
                     <i class="hy-nav-icon hy-nav-login-icon"></i>
                     <span class="title clickstat" id="nav-login" eid="click/navi/sign" eid_desc="点击/导航/登录">登录</span>
                   </a>
